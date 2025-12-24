@@ -20,10 +20,14 @@ get_latest_stable_version() {
     headers+=(-H "Authorization: Bearer $GITHUB_TOKEN")
   fi
 
+  # Filter to stable releases, then sort by semantic version (highest first)
   curl -sL "${headers[@]}" "$GITHUB_API_URL" | jq -r '
     [.[] | select(.prerelease == false and .draft == false)
-         | select(.tag_name | test("-(alpha|beta|rc)") | not)]
-    | first | .tag_name | sub("^v"; "")
+         | select(.tag_name | test("-(alpha|beta|rc)") | not)
+         | .tag_name | sub("^v"; "")]
+    | sort_by(split(".") | map(tonumber))
+    | reverse
+    | first
   '
 }
 
