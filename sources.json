@@ -1,21 +1,21 @@
 {
-  "version": "1.12.5",
+  "version": "1.12.6",
   "platforms": {
     "aarch64-linux": {
-      "url": "https://github.com/siderolabs/talos/releases/download/v1.12.5/talosctl-linux-arm64",
-      "hash": "sha256-EIsXRd25iDixVTfm95UdJc+q+9pixXQNOCc92xrqD7E="
+      "url": "https://github.com/siderolabs/talos/releases/download/v1.12.6/talosctl-linux-arm64",
+      "hash": "sha256-TSglTubqmUu7C8pJsgR9aczJD6n/sgBBlRQygEQ62hY="
     },
     "x86_64-linux": {
-      "url": "https://github.com/siderolabs/talos/releases/download/v1.12.5/talosctl-linux-amd64",
-      "hash": "sha256-P71FbsmPltykLeBSgiCJgXcHe/Aj466UMvuQotvoz2Y="
+      "url": "https://github.com/siderolabs/talos/releases/download/v1.12.6/talosctl-linux-amd64",
+      "hash": "sha256-TEGjsQsHUpLmSxgig9VY6djpNfQyOd4e1OSxQ1lZPvs="
     },
     "x86_64-darwin": {
-      "url": "https://github.com/siderolabs/talos/releases/download/v1.12.5/talosctl-darwin-amd64",
-      "hash": "sha256-ilipURRNfxqO7EtrtyVVPkzw2cW2Z4Wo4CR4kOwUTxA="
+      "url": "https://github.com/siderolabs/talos/releases/download/v1.12.6/talosctl-darwin-amd64",
+      "hash": "sha256-hsw6NDUV+sNAQvDR0vnn2cZ9hXieFIqRO13gvzIJMJU="
     },
     "aarch64-darwin": {
-      "url": "https://github.com/siderolabs/talos/releases/download/v1.12.5/talosctl-darwin-arm64",
-      "hash": "sha256-jkreyJrOplAAj2W15TxgGlEVs7XWttFajCFeUzRRuKY="
+      "url": "https://github.com/siderolabs/talos/releases/download/v1.12.6/talosctl-darwin-arm64",
+      "hash": "sha256-JZ8MrFSSUqKfOXA9mSkXR5zskJoOqBE8OojUACs5UoU="
     }
   }
 }
